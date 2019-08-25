@@ -4,7 +4,7 @@ import "./Box.css";
 
 const Card = props => (
     <div className="box" onClick={() => props.clickCount(props.id)}>
-      <div className="box-container">
+      <div className="img-box">
         <img alt={props.name} src={props.image} />
       </div>
     </div>
