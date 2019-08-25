@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Box from "./components/Box";
 import Wrapper from "./components/Wrapper";
 import Header from "./components/Header";
-import cards from "./boxList.json";
+import boxList from "./boxList.json";
 import "./App.css";
 
 class App extends Component {
@@ -26,7 +26,7 @@ class App extends Component {
           this.setState({ score: this.state.score + 1 }, function () {
             console.log(this.state.score);
           });
-          this.state.cards.sort(() => Math.random() - 0.5)
+          this.state.boxList.sort(() => Math.random() - 0.5)
           return true;
         } else {
           this.gameOver();
@@ -40,7 +40,7 @@ class App extends Component {
         <Header score={this.state.score}
           highscore={this.state.message}>
           Bird Watch</Header>
-        {this.state.cards.map(card => (
+        {this.state.boxList.map(box => (
           <Box
             clickCount={this.clickCount}
             id={box.id}
