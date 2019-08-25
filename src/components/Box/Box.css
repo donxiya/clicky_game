@@ -1,0 +1,26 @@
+.box {
+    background:white;
+    border-radius: 3px;
+    height: 300px;
+    margin: 10 px;
+    position: relative;
+    width: 300px;
+    text-align: left;
+  }
+
+  .box > .img-box {
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+    background:rgb(92, 182, 162);
+  }
+
+  .box > .img-box > img {
+    width: 80%
+  }
+
+  .box > .content {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+  }
