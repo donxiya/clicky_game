@@ -12,11 +12,12 @@
     height: 100%;
     overflow: hidden;
     text-align: center;
-    background:rgb(92, 182, 162);
+    background:white;
   }
 
   .box > .img-box > img {
-    width: 80%
+    width: 80%;
+    margin: auto;
   }
 
   .box > .content {
