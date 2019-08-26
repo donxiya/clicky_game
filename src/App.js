@@ -48,9 +48,9 @@ class App extends Component {
             image={box.image}
           />
         ))}
+        <div>Source: <a href>https://www.audubon.org</a></div>
       </Wrapper>
-      <div>Source: <a href>https://www.audubon.org</a></div>
-    );
+    )
   }
 }
 
