@@ -19,10 +19,10 @@ class App extends Component {
   }
 
   clickCount = id => {
-    this.state.boxlist.find((any, i) => {
+    this.state.boxList.find((any, i) => {
       if (any.id === id) {
-        if (boxlist[i].select === false) {
-          boxlist[i].select = true;
+        if (boxList[i].select === false) {
+          boxList[i].select = true;
           this.setState({ score: this.state.score + 1 }, function () {
             console.log(this.state.score);
           });
