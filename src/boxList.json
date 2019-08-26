@@ -2,73 +2,73 @@
     {
         "id": 1,
         "name": "Abert's Towhee",
-        "image": "../assets/images/1.jpg",
+        "image": "src/assets/images/1.jpg",
         "select": false
     },
     {
         "id": 2,
         "name": "Acadian Flycatcher",
-        "image": "./assets/images/2.jpg",
+        "image": "src/assets/images/2.jpg",
         "select": false
     },
     {
         "id": 3,
         "name": "American Black Duck",
-        "image": "/assets/images/3.jpg",
+        "image": "src/assets/images/3.jpg",
         "select": false
     },
     {
         "id": 4,
         "name": "Berylline Hummingbird",
-        "image": "/assets/images/4.jpg",
+        "image": "src/assets/images/4.jpg",
         "select": false
     },
     {
         "id": 5,
         "name": "Black Rail",
-        "image": "/assets/images/5.jpg",
+        "image": "src/assets/images/5.jpg",
         "select": false
     },
     {
         "id": 6,
         "name": "Black Swift",
-        "image": "/assets/images/6.jpg",
+        "image": "src/assets/images/6.jpg",
         "select": false
     },
     {
         "id": 7,
         "name": "Blue-crowned Parakeet",
-        "image": "/assets/images/7.jpg",
+        "image": "src/assets/images/7.jpg",
         "select": false
     },
     {
         "id": 8,
         "name": "California Condor",
-        "image": "/assets/images/8.jpg",
+        "image": "src/assets/images/8.jpg",
         "select": false
     },
     {
         "id": 9,
         "name": "Eastern Screech-Owl",
-        "image": "/assets/images/9.jpg",
+        "image": "src/assets/images/9.jpg",
         "select": false
     },
     {
         "id": 10,
         "name": "Fulvous Whistling-Duck",
-        "image": "/assets/images/10.jpg",
+        "image": "src/assets/images/10.jpg",
         "select": false
     },
     {
         "id": 11,
         "name": "Florida Scrub-Jay",
-        "image": "/assets/images/11.jpg",
+        "image": "src/assets/images/11.jpg",
         "select": false
     },
     {
         "id": 12,
         "name": "Horned Puffin",
-        "image": "/assets/images/12.jpg",
+        "image": "src/assets/images/12.jpg",
         "select": false
     }
 ]
