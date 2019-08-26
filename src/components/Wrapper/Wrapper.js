@@ -7,4 +7,4 @@ const Wrapper = props => (
     </div>
 );
 
-export default Box;
+export default Wrapper;
