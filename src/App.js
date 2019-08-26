@@ -45,7 +45,7 @@ class App extends Component {
             clickCount={this.clickCount}
             id={box.id}
             key={box.id}
-            image={require(box.image)}
+            image={box.image}
           />
         ))}
         <div>Source: <a href>https://www.audubon.org</a></div>
