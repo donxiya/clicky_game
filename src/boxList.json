@@ -2,13 +2,13 @@
     {
         "id": 1,
         "name": "Abert's Towhee",
-        "image": "./assets/images/1.jpg",
+        "image": "../assets/images/1.jpg",
         "select": false
     },
     {
         "id": 2,
         "name": "Acadian Flycatcher",
-        "image": "/assets/images/2.jpg",
+        "image": "./assets/images/2.jpg",
         "select": false
     },
     {
