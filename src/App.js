@@ -29,7 +29,7 @@ class App extends Component {
           this.state.boxList.sort(() => Math.random() - 0.5)
           return true;
         } else {
-          this.gameOver();
+          this.gameEnd();
         }
       }
     });
@@ -38,7 +38,7 @@ class App extends Component {
     return (
       <Wrapper>
         <Header score={this.state.score}
-          highscore={this.state.message}>
+          message={this.state.message}>
           Bird Watch</Header>
         {this.state.boxList.map(box => (
           <Box
