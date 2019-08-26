@@ -7,7 +7,7 @@ import "./App.css";
 
 class App extends Component {
   state = {
-    boxlist,
+    boxList,
     score: 0,
     message: ""
   };
