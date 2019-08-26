@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Abert's Towhee",
-        "image": "src/components/assets/images/1.jpg",
+        "image": "app/src/components/assets/images/1.jpg",
         "select": false
     },
     {
