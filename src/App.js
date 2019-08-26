@@ -9,7 +9,7 @@ class App extends Component {
   state = {
     boxList,
     score: 0,
-    message: ""
+    message: "Don't Pick the Same Bird!"
   };
 
   gameEnd = () => {
